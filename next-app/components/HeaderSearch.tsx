@@ -20,7 +20,7 @@ import { useSession } from "next-auth/react";
 const links = [
   { link: "/", label: "Home" },
   { link: "/location", label: "Locations" },
-  { link: "/database_table", label: "User Data" },
+  { link: "/api/feedback", label: "User Data" },
 ];
 
 export function HeaderSearch() {
