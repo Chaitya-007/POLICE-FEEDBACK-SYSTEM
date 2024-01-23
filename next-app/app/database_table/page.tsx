@@ -19,7 +19,7 @@ interface FormSubmittion {
 }
 
 const ContactUs = async () => {
-  const res = await fetch("https://police-feedback-system.vercel.app/api/feedback");
+  const res = await fetch("https://feedback-hub-nine.vercel.app/api/feedback");
   
   
   const data:FormSubmittion[] = await res.json();
