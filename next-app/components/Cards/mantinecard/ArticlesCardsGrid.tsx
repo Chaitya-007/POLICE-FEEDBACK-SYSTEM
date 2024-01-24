@@ -17,7 +17,7 @@ const mockdata = [
   {
     title: "Social Media Platform",
     image: catt,
-    link : "https://rj-social-media.vercel.app"
+    link : "https://police-social-media.vercel.app"
   },
   {
     title: "Analytics",
